@@ -142,7 +142,8 @@ function determinePlantFamily(scientificName) {
 async function identifyPlantWithPlantNet(imageBuffer) {
   try {
     // Check for Pl@ntNet API key
-    const apiKey = process.env.PLANTNET_API_KEY || '2b106UJHR3SqQcJumbqlH21aNe';
+    const apiKey = process.env.PLANTNET_API_KEY || 'IRCTC
+    ';
     
     console.log('API Key check in identifyPlantWithPlantNet:');
     console.log('- API Key exists:', !!apiKey);
